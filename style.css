@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  
+}
+.outer-box{
+    background: url(https://static.vecteezy.com/system/resources/thumbnails/041/038/335/small_2x/ai-generated-beautiful-sunset-over-the-lake-with-tree-silhouette-natural-background-photo.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+}
+.inner-box{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: rgba(253, 242, 242, 0.179);
+    /* background: transparent; */
+    z-index: 1;
+    box-shadow: 15px 15px 15px #823c3c;
+    border-radius: 10px;
+    filter: drop-shadow(14px);
+}
+.signup-header h1{
+    padding: 20px;
+    font-size: 40px;
+    padding-bottom: 5px;
+    color: rgb(243, 243, 243)
+}
+.signup-header p{
+    padding-left: 28px;
+    font-size: 0.9rem;
+    color: #555;
+}
+.signup-body{
+   margin: 20px 0;
+   font-weight: bold;
+   
+}
+.signup-body p{
+   margin: 10px 0;
+}
+.signup-body  label{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 13px;
+}
+.signup-body input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid #cccc;
+}
+.signup-body input[type="submit"]{
+    border: none;
+    background-color: #3498db;
+    cursor: pointer;
+    margin: 20px 0;
+    color: white;
+}
+.signup-body input[type="submit"]:hover{
+    background-color: #2972a3 ;
+}
+.signup-footer{
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+}
+.signup-footer p a{
+    text-decoration: none;
+    color: #3498db;
+}
